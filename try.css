@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#todo{
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: #0abde3 solid 2px;    
+}
+button    {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(18, 99, 231);
+    color: white;
+}
